@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1>Отзывы о курсе "{{ course.name }}"</h1>
+    
+    <div class="filter-section mb-4 mt-3">
+        <form method="get" class="form-inline">
+            <div class="form-group mr-2">
+                <select name="order_by" class="form-control mb-2">
+                    <option value="newest" {% if order_by == 'newest' %}selected{% endif %}>Сначала новые</option>
+                    <option value="positive" {% if order_by == 'positive' %}selected{% endif %}>Сначала положительные</option>
+                    <option value="negative" {% if order_by == 'negative' %}selected{% endif %}>Сначала отрицательные</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Применить</button>
+        </form>
+    </div>
+    
+    <div class="reviews-list">
+        {% for review in reviews.items %}
+            <div class="review card mb-3">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h5 class="card-title mb-0">{{ review.user.full_name }}</h5>
+                        <div class="text-warning">
+                            {{ review.rating }}
+                            {% for i in range(review.rating) %}
+                                <span>★</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="text-muted small mb-2">
+                        {{ review.created_at.strftime('%d.%m.%Y %H:%M') }}
+                    </div>
+                    <p class="card-text">{{ review.text }}</p>
+                </div>
+            </div>
+        {% else %}
+            <div class="alert alert-info">Пока нет отзывов</div>
+        {% endfor %}
+    </div>
+    {% if pagination.pages > 1 %}
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                {% if reviews.has_prev %}
+                    <li class="page-item">
+                        <a class="page-link" 
+                           href="{{ url_for('courses.reviews', course_id=course.id, page=reviews.prev_num, order_by=order_by) }}">
+                            &laquo;
+                        </a>
+                    </li>
+                {% endif %}
+                
+                {% for page_num in reviews.iter_pages() %}
+                    <li class="page-item {% if page_num == reviews.page %}active{% endif %}">
+                        <a class="page-link" 
+                           href="{{ url_for('courses.reviews', course_id=course.id, page=page_num, order_by=order_by) }}">
+                            {{ page_num }}
+                        </a>
+                    </li>
+                {% endfor %}
+                
+                {% if reviews.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" 
+                           href="{{ url_for('courses.reviews', course_id=course.id, page=reviews.next_num, order_by=order_by) }}">
+                            &raquo;
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% endif %}
+</div>
+{% endblock %}

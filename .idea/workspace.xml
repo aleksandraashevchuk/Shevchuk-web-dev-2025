@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2679b840-87b6-42ed-9c1d-63585199abda" name="Changes" comment="Lab5 full work without tests">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_06_2025,_19_42_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_06_2025__19_42__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/root_app/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SQL File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;qelio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/qelio/Samokhvalov-web-dev-2025-2&quot;,
+    &quot;accountId&quot;: &quot;bb6907c4-ee18-4ee4-a3c4-046ad2f530d3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2vBZAvIafTj8VGTW1tS8rnve3LR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vyacheslav/Документы/Учеба/Разработка веб-приложений (3 семестр)/Samokhvalov-web-dev-2025-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab5/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab4/app/templates/users" />
+      <recent name="$PROJECT_DIR$/lab4/app/templates/auth" />
+      <recent name="$PROJECT_DIR$/lab4" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2679b840-87b6-42ed-9c1d-63585199abda" name="Changes" comment="" />
+      <created>1743620288055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743620288055</updated>
+      <workItem from="1743620289678" duration="17113000" />
+      <workItem from="1745481903620" duration="8661000" />
+      <workItem from="1745502514843" duration="24154000" />
+      <workItem from="1745602319651" duration="4000" />
+      <workItem from="1745674058234" duration="11314000" />
+      <workItem from="1746874660602" duration="3964000" />
+      <workItem from="1746976128019" duration="32945000" />
+      <workItem from="1747220773447" duration="7000" />
+      <workItem from="1747253783209" duration="6964000" />
+      <workItem from="1747301092102" duration="9960000" />
+      <workItem from="1747420472281" duration="6000" />
+      <workItem from="1747477968557" duration="678000" />
+      <workItem from="1747588697212" duration="6350000" />
+      <workItem from="1747747920803" duration="10000" />
+      <workItem from="1747847652559" duration="16913000" />
+      <workItem from="1747869948416" duration="9832000" />
+      <workItem from="1747939661882" duration="15815000" />
+      <workItem from="1748005879343" duration="5356000" />
+      <workItem from="1748015459840" duration="3327000" />
+      <workItem from="1748032260920" duration="4743000" />
+      <workItem from="1748082670389" duration="6000" />
+      <workItem from="1748085072842" duration="2815000" />
+      <workItem from="1748113840530" duration="14000" />
+      <workItem from="1748115329374" duration="1644000" />
+      <workItem from="1748117591443" duration="10000" />
+      <workItem from="1748455804635" duration="3750000" />
+      <workItem from="1748464653957" duration="5472000" />
+      <workItem from="1748507947966" duration="7416000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lab4 in progress">
+      <option name="closed" value="true" />
+      <created>1745452298711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745452298711</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lab4 in progress (2)">
+      <option name="closed" value="true" />
+      <created>1745502539576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745502539576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lab4 finished">
+      <option name="closed" value="true" />
+      <created>1745524539806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745524539806</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lab4 finished with Application Dispatching">
+      <option name="closed" value="true" />
+      <created>1745525443568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745525443568</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lab5 start development">
+      <option name="closed" value="true" />
+      <created>1746907656610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746907656610</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lab5 access check">
+      <option name="closed" value="true" />
+      <created>1747253829813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747253829813</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lab5 full work without tests">
+      <option name="closed" value="true" />
+      <created>1747870169786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747870169786</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab4 in progress" />
+    <MESSAGE value="Lab4 in progress (2)" />
+    <MESSAGE value="Lab4 finished" />
+    <MESSAGE value="Lab4 finished with Application Dispatching" />
+    <MESSAGE value="Lab5 start development" />
+    <MESSAGE value="Lab5 access check" />
+    <MESSAGE value="Lab5 full work without tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab5 full work without tests" />
+  </component>
+</project>
